@@ -3,6 +3,7 @@ const input2 = document.querySelector("#input2")
 const textarea = document.querySelector("#textarea-footer")
 const enviar = document.querySelector(".enviar-mensagem")
 const footer = document.querySelector("#footer")
+const form = document.querySelector(".form")
 
 const animacaoScroll = new IntersectionObserver( (dados) => {
 
@@ -10,6 +11,8 @@ const animacaoScroll = new IntersectionObserver( (dados) => {
 
         if(dado.isIntersecting === true){
 
+            form.style.visibility = "visible"
+            
             setTimeout(()=>{
                 input1.style.right = "0px"
             }, 400);
