@@ -149,6 +149,7 @@ footer{
 .div-contato{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 87px;
 }
 
 .textos-footer{
@@ -218,27 +219,6 @@ form{
     line-height: 28px;
 }
 
-.imagem-argolas-footer{
-    width: 530px;
-    position: relative;
-    bottom: 47px;
-    left: -370px;
-}
-
-.imagem-argolas-header{
-    width: 530px;
-    position: relative;
-    top: 62px;
-    left: -265px;
-}
-
-.imagem-argolas-main{
-    width: 530px;
-    position: absolute;
-    right: -239px;
-    top: 1200px;
-}
-
 #imagem-zap{
     width: 27px;
 }
@@ -303,6 +283,10 @@ form{
     display: inline;
 }
 
+.contatos-header{
+    margin: 20px 10px 127px;
+}
+
 @media screen and (max-width: 1300px){
 
     .imagens-projetos{
@@ -358,17 +342,11 @@ form{
     }
 }
 
-
 @media screen and (min-width: 1100px) and (max-width: 1300px){
 
     .titulo-header{
         max-width: 600px;
     }
-
-    .imagem-argolas-main{
-        top: 1280px;
-}
-
 }
 
 @media screen and (min-width: 800px) and (max-width: 1100px){
@@ -385,10 +363,6 @@ form{
     
     .titulo-header{
         max-width: 580px;
-    }
-
-    .imagem-argolas-main{
-        top: 1280px;
     }
     
     .div-body{
@@ -441,10 +415,6 @@ form{
         text-align: center;
         gap: 48px;
     }
-
-    .imagem-argolas-main{
-        top: 1020px;
-    }
 }
 
 @media screen and (max-width: 800px){
@@ -453,10 +423,12 @@ form{
         margin: 0 16px;
     }
 
-    .contatos-header,.contatos-footer{
-        margin: 20px 0 0;
-        align-items: center;
-        gap: 20px; 
+    .contatos-footer{
+        margin: 20px 10px 0;
+    }
+
+    .contatos-header{
+        margin: 20px 10px 100px;
     }
 
     .div-links{
@@ -488,11 +460,6 @@ form{
         text-align: center;
         width: 100%;
         margin: 130px 0 92px;
-    }
-
-    .imagem-argolas-header{
-        top: 50px;
-        left: -350px;
     }
 
     .sobre-mim-header{
@@ -554,9 +521,5 @@ form{
 
     .div-links,.div-links-footer{
         gap: 10px;
-    }
-
-    .imagem-argolas-main{
-        display: none;
     }
 }
