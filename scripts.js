@@ -11,20 +11,23 @@ const animacaoScroll = new IntersectionObserver( (dados) => {
 
         if(dado.isIntersecting === true){
 
-            form.style.visibility = "visible"
-            
             setTimeout(()=>{
+                
+                input1.style.visibility = "visible"
                 input1.style.right = "0px"
             }, 400);
     
             setTimeout(()=>{
+                input2.style.visibility = "visible"
                 input2.style.right = "0px"
             }, 700);
     
             setTimeout(()=>{
+                textarea.style.visibility = "visible"
                 textarea.style.right = "0px"
             }, 1000);
             setTimeout(()=>{
+                enviar.style.visibility = "visible"
                 enviar.style.right = "0px"
             }, 1300);
         }
